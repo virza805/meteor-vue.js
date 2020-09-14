@@ -12,7 +12,7 @@
     export default {
         data() {
             return {
-                greeting: 'Hello Meteor, from Vue',
+                greeting: 'This is my first work using Meteor + vue.js + MongoDB.',
             };
         },
     };
@@ -20,6 +20,7 @@
 
 <style lang="css" scoped>
 .text-color{
-    color:rgb(2, 128, 19);
+    color:#b8060f;
+    text-align: center;
 }
 </style>

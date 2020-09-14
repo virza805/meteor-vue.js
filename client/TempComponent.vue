@@ -1,10 +1,5 @@
 <template>
-    <div 
-        id="some-id"
-        class="my-class"
-    >
-        {{ message }} <br> {{ message2 }}
-        <br>
+    <div id="some-id" class="my-class">
         <div class="container">
             <div class="row">
               <div class="col-lg-12">
@@ -121,8 +116,6 @@
         
         data() {
             return { 
-                message: 'Hello YouTube !',
-                message2: 'Subsoribe',
                 item: { name: '', email: '', pho: 0, dob: '', sub: '' } 
                 };
         },
